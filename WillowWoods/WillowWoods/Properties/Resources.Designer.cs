@@ -63,9 +63,11 @@ namespace WillowWoods.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+
         internal static System.Drawing.Bitmap _3541089_mossy_stone_seamless_texture {
             get {
                 object obj = ResourceManager.GetObject("3541089-mossy-stone-seamless-texture", resourceCulture);
+
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +75,71 @@ namespace WillowWoods.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap mossy_stone_seamless_texture_vector_582884 {
+
+        internal static System.Drawing.Bitmap _52a3eedc730086a6c44f8f6e2c6d6ff7__dark_forest_forests {
             get {
-                object obj = ResourceManager.GetObject("mossy-stone-seamless-texture-vector-582884", resourceCulture);
+                object obj = ResourceManager.GetObject("52a3eedc730086a6c44f8f6e2c6d6ff7--dark-forest-forests", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a3ae7d6597ebf70fe9d67fa9f0994480 {
+            get {
+                object obj = ResourceManager.GetObject("a3ae7d6597ebf70fe9d67fa9f0994480", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap d629niv_9aeef292_3db0_40b7_a49f_21ef4370006a {
+            get {
+                object obj = ResourceManager.GetObject("d629niv-9aeef292-3db0-40b7-a49f-21ef4370006a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap d629niv_9aeef292_3db0_40b7_a49f_21ef4370006a1 {
+            get {
+                object obj = ResourceManager.GetObject("d629niv-9aeef292-3db0-40b7-a49f-21ef4370006a1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap depositphotos_207816054_stock_video_halloween_spooky_moon_night_landscape {
+            get {
+                object obj = ResourceManager.GetObject("depositphotos_207816054-stock-video-halloween-spooky-moon-night-landscape", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__4_ {
+            get {
+                object obj = ResourceManager.GetObject("download (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap maxresdefault {
+            get {
+                object obj = ResourceManager.GetObject("maxresdefault", resourceCulture);
+
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

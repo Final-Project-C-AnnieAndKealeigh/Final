@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WillowWoods
+namespace WillowWoods.Properties
 {
     public partial class Form2 : Form
     {
@@ -16,7 +16,5 @@ namespace WillowWoods
         {
             InitializeComponent();
         }
-
-
     }
 }

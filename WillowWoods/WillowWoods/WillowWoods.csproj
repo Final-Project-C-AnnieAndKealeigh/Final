@@ -65,11 +65,18 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <Compile Include="Properties\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
@@ -89,10 +96,30 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\3541089-mossy-stone-seamless-texture.jpg" />
+
+    <None Include="Resources\maxresdefault.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\mossy-stone-seamless-texture-vector-582884.jpg" />
+    <None Include="Resources\52a3eedc730086a6c44f8f6e2c6d6ff7--dark-forest-forests.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a3ae7d6597ebf70fe9d67fa9f0994480.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_207816054-stock-video-halloween-spooky-moon-night-landscape.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d629niv-9aeef292-3db0-40b7-a49f-21ef4370006a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d629niv-9aeef292-3db0-40b7-a49f-21ef4370006a1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\284011701049211.png" />
+
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
