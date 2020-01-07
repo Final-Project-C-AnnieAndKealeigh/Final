@@ -17,6 +17,14 @@ namespace WillowWoods
             InitializeComponent();
         }
 
+        private void btnStart_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void btnEnd_Click(object sender, EventArgs e)
+        {
+            WinnerBannerlbl.Visible = true;
+        }
     }
 }
