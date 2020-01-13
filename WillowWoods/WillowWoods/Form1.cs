@@ -150,10 +150,11 @@ namespace WillowWoods
                         wispHit2lbl.Visible = true;
 
                     }
-                    else if ( a == 3)
+                    else if (c > 2)
                     {
-                        wispHit1lbl.Visible = false;
+                        wispHit2lbl.Visible = false;
                         monsterPic.Visible = false;
+                        monsterPic.SendToBack();
                         defeatlbl.Visible = true;
                         monsterContinuebtn.Visible = true;
 
@@ -168,11 +169,12 @@ namespace WillowWoods
                         wispMisslbl.Visible = false;
                         wispHit1lbl.Visible = true;
                     }
-                    else if (a == 3)
+                    else if (c > 2)
                     {
-                        wispMisslbl.Visible = false;
-                        defeatlbl.Visible = true;
+                        wispHit1lbl.Visible = false;
+                        wispHit1lbl.SendToBack();
                         monsterPic.Visible = false;
+                        defeatlbl.Visible = true;
                         monsterContinuebtn.Visible = true;
                     }
                 }
@@ -186,6 +188,7 @@ namespace WillowWoods
         {
             Monsterpanel.Visible = true;
             Monsterpanel.BringToFront();
+            Monsterpanel.Show();
         }
 
         private void monsterContinuebtn_Click(object sender, EventArgs e)
@@ -201,6 +204,7 @@ namespace WillowWoods
 
             if (userChoice == 1)
             {
+                Monsterpanel.Visible = true;
                 Monsterpanel.BringToFront();
             }
             else if (userChoice == 2)
@@ -211,12 +215,103 @@ namespace WillowWoods
             }
         }
 
+        private int c = 0;
         private void nextEndbtn_Click(object sender, EventArgs e)
         {
+            c++;
+            do
+            {
+                
+                if (c == 2)
+                {
+                    scene1lbl.Visible = false;
+                    sunsetPicBox.Visible = true;
+                }
+                else if (c == 3)
+                {
+                    sunsetPicBox.Visible = false;
+                    wispEndDialoglbl.Visible = true;
+                    wispEndPic.Visible = true;
+                }
+                else if (c == 4)
+                {
+                    wispEndDialoglbl.Visible = false;
+                    youEndDialoglbl.Visible = true;
+                }
+                else if (c == 5)
+                {
+                    youEndDialoglbl.Visible = false;
+                    wispEndDialog2lbl.Visible = true;
+                }
+                else if (c == 6)
+                {
+                    wispEndDialog2lbl.Visible = false;
+                    scene2lbl.Visible = true;
+                }
+                else if (c == 7)
+                {
+                    scene2lbl.Visible = false;
+                    wispEndPic.Visible = false;
+                    sunsetPicBox.Visible = true;
+                }
+                else if (c == 8)
+                {
+                    sunsetPicBox.Visible = false;
+                    wispEndPic.Visible = true;
+                    youEndDialog3lbl.Visible = true;
+                }
+                else if (c == 9)
+                {
+                    youEndDialog3lbl.Visible = false;
+                    wispEndDialog3lbl.Visible = true;
+                }
+                else if ( c == 10)
+                {
+                    wispEndDialog3lbl.Visible = false;
+                    youEndDialog4lbl.Visible = true;
+                }
+                else if (c == 11)
+                {
+                    youEndDialog4lbl.Visible = false;
+                    wispEndDialog4lbl.Visible = true;
+                }
+                else if (c == 12)
+                {
+                    wispEndDialog4lbl.Visible = false;
+                    scene3lbl.Visible = true;
+                }
+                else if (c == 13)
+                {
+                    scene3lbl.Visible = false;
+                    wispEndDialog5lbl.Visible = true;
+                } 
+                else if (c == 14)
+                {
+                    wispEndDialog5lbl.Visible = false;
+                    scene4lbl.Visible = true;
+                }
+                else if (c == 15)
+                {
+                    scene4lbl.Visible = false;
+                    scene5lbl.Visible = true;
+                }
+                else if (c == 16)
+                {
+                    scene5lbl.Visible = false;
+                    wispEndPic.Visible = false;
+                    endlbl.Visible = true;
+                }
+            } while (c > 16);
 
+            nextEndbtn.Visible = false;
+            endbtn.Visible = true;
+            
         }
 
-       
+        private void endbtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
      
 }
