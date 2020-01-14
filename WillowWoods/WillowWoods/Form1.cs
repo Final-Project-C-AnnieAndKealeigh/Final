@@ -150,7 +150,7 @@ namespace WillowWoods
                         wispHit2lbl.Visible = true;
 
                     }
-                    else if (c > 2)
+                    else if (c == 3)
                     {
                         wispHit2lbl.Visible = false;
                         monsterPic.Visible = false;
@@ -169,7 +169,7 @@ namespace WillowWoods
                         wispMisslbl.Visible = false;
                         wispHit1lbl.Visible = true;
                     }
-                    else if (c > 2)
+                    else if (c == 3)
                     {
                         wispHit1lbl.Visible = false;
                         wispHit1lbl.SendToBack();
@@ -180,7 +180,7 @@ namespace WillowWoods
                 }
                 
                 
-            } while (a > 3);
+            } while (a >= 3);
 
         }
 
@@ -204,6 +204,7 @@ namespace WillowWoods
 
             if (userChoice == 1)
             {
+                endingpanel.Visible = false;
                 Monsterpanel.Visible = true;
                 Monsterpanel.BringToFront();
             }
