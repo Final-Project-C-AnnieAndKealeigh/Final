@@ -463,7 +463,66 @@
     "ave made it out alive if you didn\'t help me.";
             this.youEndDialog4lbl.Visible = false;
             // 
-            // wispEndDialog3lbl
+
+            // wispEndDialog5lbl
+            // 
+            this.wispEndDialog5lbl.AutoSize = true;
+            this.wispEndDialog5lbl.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wispEndDialog5lbl.ForeColor = System.Drawing.Color.White;
+            this.wispEndDialog5lbl.Location = new System.Drawing.Point(324, 386);
+            this.wispEndDialog5lbl.Name = "wispEndDialog5lbl";
+            this.wispEndDialog5lbl.Size = new System.Drawing.Size(179, 48);
+            this.wispEndDialog5lbl.TabIndex = 29;
+            this.wispEndDialog5lbl.Text = "???:\r\n\r\nCome back soon to play again...";
+            this.wispEndDialog5lbl.Visible = false;
+            // 
+            // wispEndDialog4lbl
+            // 
+            this.wispEndDialog4lbl.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wispEndDialog4lbl.ForeColor = System.Drawing.Color.White;
+            this.wispEndDialog4lbl.Location = new System.Drawing.Point(327, 276);
+            this.wispEndDialog4lbl.Name = "wispEndDialog4lbl";
+            this.wispEndDialog4lbl.Size = new System.Drawing.Size(132, 50);
+            this.wispEndDialog4lbl.TabIndex = 28;
+            this.wispEndDialog4lbl.Text = "Luna:\r\n\r\nIt\'s no big deal...";
+            this.wispEndDialog4lbl.Visible = false;
+            // 
+            // wispEndDialog2lbl
+            // 
+            this.wispEndDialog2lbl.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wispEndDialog2lbl.ForeColor = System.Drawing.Color.White;
+            this.wispEndDialog2lbl.Location = new System.Drawing.Point(3, 233);
+            this.wispEndDialog2lbl.Name = "wispEndDialog2lbl";
+            this.wispEndDialog2lbl.Size = new System.Drawing.Size(112, 75);
+            this.wispEndDialog2lbl.TabIndex = 27;
+            this.wispEndDialog2lbl.Text = "???:\r\n\r\nYea, but it was fun don\'t you think?";
+            this.wispEndDialog2lbl.Visible = false;
+            // 
+            // scene4lbl
+            // 
+            this.scene4lbl.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scene4lbl.ForeColor = System.Drawing.Color.White;
+            this.scene4lbl.Location = new System.Drawing.Point(591, 213);
+            this.scene4lbl.Name = "scene4lbl";
+            this.scene4lbl.Size = new System.Drawing.Size(195, 93);
+            this.scene4lbl.TabIndex = 26;
+            this.scene4lbl.Text = "You: \r\n\r\n**You quickly turn around and catch a glimpse of what looks like a girl " +
+    "waving before disappearing in the fog.**";
+            this.scene4lbl.Visible = false;
+            // 
+            // scene1lbl
+            // 
+            this.scene1lbl.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scene1lbl.ForeColor = System.Drawing.Color.White;
+            this.scene1lbl.Location = new System.Drawing.Point(3, 5);
+            this.scene1lbl.Name = "scene1lbl";
+            this.scene1lbl.Size = new System.Drawing.Size(334, 86);
+            this.scene1lbl.TabIndex = 25;
+            this.scene1lbl.Text = "You:\r\n\r\n**A bright light blinds your vision. When you gain back your vision, you " +
+    "see the sunset and a lake all which that are too familiar.** ";
+            // 
+            // youEndDialoglbl
+
             // 
             this.wispEndDialog3lbl.BackColor = System.Drawing.Color.Transparent;
             this.wispEndDialog3lbl.Font = new System.Drawing.Font("Engravers MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -477,14 +536,18 @@
             // 
             // youEndDialog3lbl
             // 
-            this.youEndDialog3lbl.BackColor = System.Drawing.Color.Transparent;
-            this.youEndDialog3lbl.Font = new System.Drawing.Font("Engravers MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.youEndDialog3lbl.ForeColor = System.Drawing.Color.White;
-            this.youEndDialog3lbl.Location = new System.Drawing.Point(176, 109);
-            this.youEndDialog3lbl.Name = "youEndDialog3lbl";
-            this.youEndDialog3lbl.Size = new System.Drawing.Size(362, 128);
-            this.youEndDialog3lbl.TabIndex = 23;
-            this.youEndDialog3lbl.Text = "You: \r\n\r\nYea...but all fun things come to a end. You know, I never got your name." +
+
+            this.label45.BackColor = System.Drawing.Color.Transparent;
+            this.label45.Font = new System.Drawing.Font("Engravers MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.ForeColor = System.Drawing.Color.White;
+
+            this.label45.Location = new System.Drawing.Point(182, 109);
+
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(362, 128);
+            this.label45.TabIndex = 23;
+            this.label45.Text = "You: \r\n\r\nYea...but all fun things come to a end. You know, I never got your name." +
+
     " ";
             this.youEndDialog3lbl.Visible = false;
             // 
