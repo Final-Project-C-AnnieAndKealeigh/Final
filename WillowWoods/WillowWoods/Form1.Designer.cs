@@ -37,7 +37,8 @@
             this.Monsterpanel = new System.Windows.Forms.Panel();
             this.doorPanel = new System.Windows.Forms.Panel();
             this.endingpanel = new System.Windows.Forms.Panel();
-            this.sunsetPicBox = new System.Windows.Forms.PictureBox();
+            this.endbtn = new System.Windows.Forms.Button();
+            this.endlbl = new System.Windows.Forms.Label();
             this.scene5lbl = new System.Windows.Forms.Label();
             this.scene4lbl = new System.Windows.Forms.Label();
             this.wispEndDialog5lbl = new System.Windows.Forms.Label();
@@ -53,6 +54,7 @@
             this.wispEndDialoglbl = new System.Windows.Forms.Label();
             this.scene1lbl = new System.Windows.Forms.Label();
             this.wispEndPic = new System.Windows.Forms.PictureBox();
+            this.sunsetPicBox = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.door2lbl = new System.Windows.Forms.Label();
             this.door1lbl = new System.Windows.Forms.Label();
@@ -145,8 +147,6 @@
             this.willowWoodslbl = new System.Windows.Forms.Label();
             this.next2btn = new System.Windows.Forms.Button();
             this.firstNextbtn = new System.Windows.Forms.Button();
-            this.endlbl = new System.Windows.Forms.Label();
-            this.endbtn = new System.Windows.Forms.Button();
             this.storypanel.SuspendLayout();
             this.IntroPanel.SuspendLayout();
             this.mazePanel.SuspendLayout();
@@ -154,8 +154,8 @@
             this.Monsterpanel.SuspendLayout();
             this.doorPanel.SuspendLayout();
             this.endingpanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.sunsetPicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wispEndPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sunsetPicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wispDoorpic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.door1pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.door2pic)).BeginInit();
@@ -363,16 +363,29 @@
             this.endingpanel.TabIndex = 25;
             this.endingpanel.Visible = false;
             // 
-            // sunsetPicBox
+            // endbtn
             // 
-            this.sunsetPicBox.BackgroundImage = global::WillowWoods.Properties.Resources.giphy1;
-            this.sunsetPicBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.sunsetPicBox.Location = new System.Drawing.Point(11, 6);
-            this.sunsetPicBox.Name = "sunsetPicBox";
-            this.sunsetPicBox.Size = new System.Drawing.Size(803, 444);
-            this.sunsetPicBox.TabIndex = 35;
-            this.sunsetPicBox.TabStop = false;
-            this.sunsetPicBox.Visible = false;
+            this.endbtn.Font = new System.Drawing.Font("Engravers MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.endbtn.Location = new System.Drawing.Point(365, 321);
+            this.endbtn.Name = "endbtn";
+            this.endbtn.Size = new System.Drawing.Size(103, 34);
+            this.endbtn.TabIndex = 37;
+            this.endbtn.Text = "Exit";
+            this.endbtn.UseVisualStyleBackColor = true;
+            this.endbtn.Visible = false;
+            this.endbtn.Click += new System.EventHandler(this.endbtn_Click);
+            // 
+            // endlbl
+            // 
+            this.endlbl.BackColor = System.Drawing.Color.Transparent;
+            this.endlbl.Font = new System.Drawing.Font("Engravers MT", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.endlbl.ForeColor = System.Drawing.Color.White;
+            this.endlbl.Location = new System.Drawing.Point(130, 140);
+            this.endlbl.Name = "endlbl";
+            this.endlbl.Size = new System.Drawing.Size(628, 154);
+            this.endlbl.TabIndex = 36;
+            this.endlbl.Text = "THE END";
+            this.endlbl.Visible = false;
             // 
             // scene5lbl
             // 
@@ -559,6 +572,17 @@
             this.wispEndPic.TabIndex = 19;
             this.wispEndPic.TabStop = false;
             this.wispEndPic.Visible = false;
+            // 
+            // sunsetPicBox
+            // 
+            this.sunsetPicBox.BackgroundImage = global::WillowWoods.Properties.Resources.giphy1;
+            this.sunsetPicBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.sunsetPicBox.Location = new System.Drawing.Point(11, 6);
+            this.sunsetPicBox.Name = "sunsetPicBox";
+            this.sunsetPicBox.Size = new System.Drawing.Size(803, 444);
+            this.sunsetPicBox.TabIndex = 35;
+            this.sunsetPicBox.TabStop = false;
+            this.sunsetPicBox.Visible = false;
             // 
             // button2
             // 
@@ -1558,30 +1582,6 @@
             this.firstNextbtn.UseVisualStyleBackColor = true;
             this.firstNextbtn.Click += new System.EventHandler(this.firstNextbtn_Click);
             // 
-            // endlbl
-            // 
-            this.endlbl.BackColor = System.Drawing.Color.Transparent;
-            this.endlbl.Font = new System.Drawing.Font("Engravers MT", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.endlbl.ForeColor = System.Drawing.Color.White;
-            this.endlbl.Location = new System.Drawing.Point(102, 130);
-            this.endlbl.Name = "endlbl";
-            this.endlbl.Size = new System.Drawing.Size(628, 154);
-            this.endlbl.TabIndex = 36;
-            this.endlbl.Text = "THE END";
-            this.endlbl.Visible = false;
-            // 
-            // endbtn
-            // 
-            this.endbtn.Font = new System.Drawing.Font("Engravers MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.endbtn.Location = new System.Drawing.Point(365, 321);
-            this.endbtn.Name = "endbtn";
-            this.endbtn.Size = new System.Drawing.Size(103, 34);
-            this.endbtn.TabIndex = 37;
-            this.endbtn.Text = "Exit";
-            this.endbtn.UseVisualStyleBackColor = true;
-            this.endbtn.Visible = false;
-            this.endbtn.Click += new System.EventHandler(this.endbtn_Click);
-            // 
             // WillowWoodsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1604,8 +1604,8 @@
             this.doorPanel.ResumeLayout(false);
             this.doorPanel.PerformLayout();
             this.endingpanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.sunsetPicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wispEndPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sunsetPicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wispDoorpic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.door1pic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.door2pic)).EndInit();

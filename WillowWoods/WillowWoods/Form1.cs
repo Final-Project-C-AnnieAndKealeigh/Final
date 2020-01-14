@@ -132,6 +132,7 @@ namespace WillowWoods
         private void button1_Click_1(object sender, EventArgs e)
         {
             a++;
+            bool again = true;
             int min = 1;
             int max = 100;
             int chance;
@@ -152,12 +153,11 @@ namespace WillowWoods
                     }
                     else if (c == 3)
                     {
+
                         wispHit2lbl.Visible = false;
                         monsterPic.Visible = false;
-                        monsterPic.SendToBack();
                         defeatlbl.Visible = true;
                         monsterContinuebtn.Visible = true;
-
                     }
                 }
                 else
@@ -172,15 +172,16 @@ namespace WillowWoods
                     else if (c == 3)
                     {
                         wispHit1lbl.Visible = false;
-                        wispHit1lbl.SendToBack();
-                        monsterPic.Visible = false;
-                        defeatlbl.Visible = true;
-                        monsterContinuebtn.Visible = true;
+                        wispHit1lbl.SendToBack();       
                     }
+                    monsterPic.Visible = false;
+                    defeatlbl.Visible = true;
+                    monsterContinuebtn.Visible = true;
                 }
                 
                 
-            } while (a >= 3);
+            } while (c >= 3);
+           
 
         }
 
@@ -205,6 +206,7 @@ namespace WillowWoods
             if (userChoice == 1)
             {
                 endingpanel.Visible = false;
+                endingpanel.SendToBack();
                 Monsterpanel.Visible = true;
                 Monsterpanel.BringToFront();
             }
@@ -301,12 +303,15 @@ namespace WillowWoods
                     scene5lbl.Visible = false;
                     wispEndPic.Visible = false;
                     endlbl.Visible = true;
+                    
                 }
+                
             } while (c > 16);
 
-            nextEndbtn.Visible = false;
-            endbtn.Visible = true;
             
+              nextEndbtn.Visible = false;
+              endbtn.Visible = true;
+           
         }
 
         private void endbtn_Click(object sender, EventArgs e)
