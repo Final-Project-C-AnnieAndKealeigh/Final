@@ -31,7 +31,6 @@ namespace WillowWoods
             firstNextbtn.Visible = false;
             willowWoodslbl.Visible = true;
             continuebtn.Visible = true;
-
         }
 
         private void continuebtn_Click_1(object sender, EventArgs e)
@@ -45,7 +44,6 @@ namespace WillowWoods
             wispDialogOnelbl.Visible = false;
             youDialogOnelbl.Visible = true;
             nextTwobtn.Visible = true;
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -54,7 +52,6 @@ namespace WillowWoods
             youDialogOnelbl.Visible = false;
             youDialog2lbl.Visible = true;
             next3btn.Visible = true;
-
         }
 
         private void next3btn_Click(object sender, EventArgs e)
@@ -63,7 +60,6 @@ namespace WillowWoods
             youDialog2lbl.Visible = false;
             youDialog3lbl.Visible = true;
             next4btn.Visible = true;
-
         }
 
         private void next4btn_Click(object sender, EventArgs e)
@@ -85,7 +81,6 @@ namespace WillowWoods
         {
             Point startPoint = mazePanel.Location;
             Cursor.Position = PointToScreen(startPoint);
-
         }
 
         private void Exit_MouseEnter(object sender, EventArgs e)
@@ -132,7 +127,6 @@ namespace WillowWoods
         private void button1_Click_1(object sender, EventArgs e)
         {
             a++;
-            bool again = true;
             int min = 1;
             int max = 100;
             int chance;
@@ -153,11 +147,12 @@ namespace WillowWoods
                     }
                     else if (c == 3)
                     {
-
-                        wispHit2lbl.Visible = false;
+                        wispHit2lbl.Visible = false;           
+                    }
+                    else if (c == 4)
+                    {
                         monsterPic.Visible = false;
                         defeatlbl.Visible = true;
-                        monsterContinuebtn.Visible = true;
                     }
                 }
                 else
@@ -169,19 +164,23 @@ namespace WillowWoods
                         wispMisslbl.Visible = false;
                         wispHit1lbl.Visible = true;
                     }
-                    else if (c == 3)
+                    else if (a == 3)
                     {
                         wispHit1lbl.Visible = false;
-                        wispHit1lbl.SendToBack();       
+                        wispHit1lbl.SendToBack();
+                        
                     }
-                    monsterPic.Visible = false;
-                    defeatlbl.Visible = true;
-                    monsterContinuebtn.Visible = true;
+                    else if (a == 4)
+                    {
+                        monsterPic.Visible = false;
+                    }              
                 }
-                
-                
-            } while (c >= 3);
-           
+            } while (c > 4);
+
+            defeatlbl.Visible = true;
+            monsterPic.Visible = false;
+            monsterContinuebtn.Visible = true;
+            monsterContinuebtn.BringToFront();
 
         }
 
@@ -200,31 +199,16 @@ namespace WillowWoods
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int userChoice;
-            userChoice = Convert.ToInt32(userChoicetxt.Text);
-
-            if (userChoice == 1)
-            {
-                endingpanel.Visible = false;
-                endingpanel.SendToBack();
-                Monsterpanel.Visible = true;
-                Monsterpanel.BringToFront();
-            }
-            else if (userChoice == 2)
-            {
-                endingpanel.Visible = true;
-                endingpanel.BringToFront();
-
-            }
+             endingpanel.Visible = true;
+             endingpanel.BringToFront();
         }
 
-        private int c = 0;
+        private int c = 1;
         private void nextEndbtn_Click(object sender, EventArgs e)
         {
             c++;
             do
-            {
-                
+            {            
                 if (c == 2)
                 {
                     scene1lbl.Visible = false;
@@ -308,16 +292,15 @@ namespace WillowWoods
                 
             } while (c > 16);
 
-            
-              nextEndbtn.Visible = false;
-              endbtn.Visible = true;
-           
+            endbtn.Visible = true;
         }
 
         private void endbtn_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
+       
     }
      
 }
