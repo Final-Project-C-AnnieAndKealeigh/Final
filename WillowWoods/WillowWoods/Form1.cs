@@ -17,7 +17,7 @@ namespace WillowWoods
             InitializeComponent();
         }
 
-        //Beginning, used multiple buttons to transition labels 
+        //Multiple buttons used to transition labels 
         private void firstNextbtn_Click(object sender, EventArgs e)
         {
             OnceUponlbl.Visible = false;
@@ -35,9 +35,13 @@ namespace WillowWoods
 
         private void continuebtn_Click_1(object sender, EventArgs e)
         {
+            /*when continue button is clicked it will transition panel,
+             button will not disappear until next button on intro panel
+             is clicked*/
             IntroPanel.Visible = true; 
         }
 
+        //Multiple buttons used to transition labels 
         private void nextOnebtn_Click(object sender, EventArgs e)
         {
             continuebtn.Visible = false;
@@ -73,18 +77,21 @@ namespace WillowWoods
         private void next5btn_Click(object sender, EventArgs e)
         {
             next4btn.Visible = false;
-            mazePanel.Visible = true;
-        
+            mazePanel.Visible = true;  
         }
  
         private void Wall_MouseEnter(object sender, EventArgs e)
         {
+
+            //makes mouse restart if user touches a green wall
             Point startPoint = mazePanel.Location;
             Cursor.Position = PointToScreen(startPoint);
         }
 
         private void Exit_MouseEnter(object sender, EventArgs e)
         {
+            /*on click transition panel, next button will not disappear until
+             ok button is clicked on the maze panel*/
             nextMazebtn.Visible = true;
         }
         private void okbtn_Click(object sender, EventArgs e)
@@ -123,10 +130,14 @@ namespace WillowWoods
 
         }
 
-        //better way to transition with one button
+        //better way to transition with one button: counts number of clicks 
         private int a = 0;
         private void button1_Click_1(object sender, EventArgs e)
         {
+            /*first if-else statement is only excuted once
+             depending on number generated it will execute the other if-else
+             statement nested in the loop. Loop will end with user clicked hit button
+             4 times*/
             a++;
             int min = 1;
             int max = 100;
@@ -148,12 +159,10 @@ namespace WillowWoods
                     }
                     else if (a == 3)
                     {
-                        wispHit2lbl.Visible = false;           
-                    }
-                    else if (a == 4)
-                    {
+                        wispHit2lbl.Visible = false;
                         monsterPic.Visible = false;
                         defeatlbl.Visible = true;
+                        monsterContinuebtn.Visible = true;
                     }
                 }
                 else
@@ -168,22 +177,20 @@ namespace WillowWoods
                     else if (a == 3)
                     {
                         wispHit1lbl.Visible = false;
-                        wispHit1lbl.SendToBack();
-                        
-                    }
-                    else if (a == 4)
-                    {
                         monsterPic.Visible = false;
-                    }              
+                        defeatlbl.Visible = true;
+                        monsterContinuebtn.Visible = true;
+                    }
+                                 
                 }
-            } while (a > 4);
+            } while (a > 3);
 
             defeatlbl.Visible = true;
             monsterPic.Visible = false;
             monsterContinuebtn.Visible = true;
             monsterContinuebtn.BringToFront();
-            //loop was not functioning properly
-            //compromised text loop to be able to end loop
+            //before, loop was not functioning properly because of incorrect variable usage
+            //loop should function properly now
         }
 
         private void continueSwordbtn_Click(object sender, EventArgs e)
@@ -195,8 +202,13 @@ namespace WillowWoods
 
         private void monsterContinuebtn_Click(object sender, EventArgs e)
         {
+            /*this panel was supposed to have 2 door and the user could
+             choose which door they would like to enter, but we faced the problem
+             with one of the panels refusing to show. So to compromise, we had
+             to delete that option*/
             doorPanel.Visible = true;
             doorPanel.BringToFront();
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -205,9 +217,12 @@ namespace WillowWoods
              endingpanel.BringToFront();
         }
 
+        //used clicker counter to transition label text
         private int c = 1;
         private void nextEndbtn_Click(object sender, EventArgs e)
         {
+            /*CAUTION: if user clicks too fast, it may appear that some text is
+             missing*/
             c++;
             do
             {            
@@ -288,8 +303,7 @@ namespace WillowWoods
                 {
                     scene5lbl.Visible = false;
                     wispEndPic.Visible = false;
-                    endlbl.Visible = true;
-                    
+                    endlbl.Visible = true;        
                 }
                 
             } while (c > 16);
