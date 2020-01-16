@@ -17,7 +17,7 @@ namespace WillowWoods
             InitializeComponent();
         }
 
-      
+        //Beginning, used multiple buttons to transition labels 
         private void firstNextbtn_Click(object sender, EventArgs e)
         {
             OnceUponlbl.Visible = false;
@@ -123,6 +123,7 @@ namespace WillowWoods
 
         }
 
+        //better way to transition with one button
         private int a = 0;
         private void button1_Click_1(object sender, EventArgs e)
         {
@@ -145,11 +146,11 @@ namespace WillowWoods
                         wispHit2lbl.Visible = true;
 
                     }
-                    else if (c == 3)
+                    else if (a == 3)
                     {
                         wispHit2lbl.Visible = false;           
                     }
-                    else if (c == 4)
+                    else if (a == 4)
                     {
                         monsterPic.Visible = false;
                         defeatlbl.Visible = true;
@@ -175,13 +176,14 @@ namespace WillowWoods
                         monsterPic.Visible = false;
                     }              
                 }
-            } while (c > 4);
+            } while (a > 4);
 
             defeatlbl.Visible = true;
             monsterPic.Visible = false;
             monsterContinuebtn.Visible = true;
             monsterContinuebtn.BringToFront();
-
+            //loop was not functioning properly
+            //compromised text loop to be able to end loop
         }
 
         private void continueSwordbtn_Click(object sender, EventArgs e)
@@ -292,15 +294,8 @@ namespace WillowWoods
                 
             } while (c > 16);
 
-            endbtn.Visible = true;
+           
         }
-
-        private void endbtn_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-       
     }
      
 }

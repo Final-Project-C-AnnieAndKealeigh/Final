@@ -362,7 +362,7 @@
             this.endbtn.Text = "Exit";
             this.endbtn.UseVisualStyleBackColor = true;
             this.endbtn.Visible = false;
-            this.endbtn.Click += new System.EventHandler(this.endbtn_Click);
+            
             // 
             // endlbl
             // 
@@ -525,7 +525,7 @@
             // 
             // youEndDialog3lbl
             // 
-<<<<<<< HEAD
+
             this.youEndDialog3lbl.BackColor = System.Drawing.Color.Transparent;
             this.youEndDialog3lbl.Font = new System.Drawing.Font("Engravers MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.youEndDialog3lbl.ForeColor = System.Drawing.Color.White;
@@ -534,20 +534,6 @@
             this.youEndDialog3lbl.Size = new System.Drawing.Size(362, 128);
             this.youEndDialog3lbl.TabIndex = 23;
             this.youEndDialog3lbl.Text = "You: \r\n\r\nYea...but all fun things come to a end. You know, I never got your name." +
-=======
-
-            this.label45.BackColor = System.Drawing.Color.Transparent;
-            this.label45.Font = new System.Drawing.Font("Engravers MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.ForeColor = System.Drawing.Color.White;
-
-            this.label45.Location = new System.Drawing.Point(182, 109);
-
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(362, 128);
-            this.label45.TabIndex = 23;
-            this.label45.Text = "You: \r\n\r\nYea...but all fun things come to a end. You know, I never got your name." +
-
->>>>>>> 72538d879bd0445b800e9ade7eb88ef8873de293
     " ";
             this.youEndDialog3lbl.Visible = false;
             // 
