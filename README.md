@@ -8,8 +8,8 @@ Please take you're time while playing this game. Read through the text before cl
 This program was built with Windows Forms in C#
 
 # ScreenShots
-<img src="Title page.png">
-<img src="gameplayy.png">
+<img src="Title page.PNG">
+<img src="gameplayy.PNG">
 
 
 # Authors
