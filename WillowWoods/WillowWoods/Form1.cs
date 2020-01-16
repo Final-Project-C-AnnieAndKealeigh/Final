@@ -36,7 +36,7 @@ namespace WillowWoods
         private void continuebtn_Click_1(object sender, EventArgs e)
         {
             /*when continue button is clicked it will transition panel,
-             button will not disappear until next button on intro panel
+             continue button will not disappear until next button on intro panel
              is clicked*/
             IntroPanel.Visible = true; 
         }
@@ -136,7 +136,7 @@ namespace WillowWoods
         {
             /*first if-else statement is only excuted once
              depending on number generated it will execute the other if-else
-             statement nested in the loop. Loop will end with user clicked hit button
+             statement nested in the loop. Loop will end when user clicked hit button
              4 times*/
             a++;
             int min = 1;
@@ -185,12 +185,12 @@ namespace WillowWoods
                 }
             } while (a > 3);
 
-            defeatlbl.Visible = true;
+            //have to put in this code below or game will crash
             monsterPic.Visible = false;
+            defeatlbl.Visible = true;
             monsterContinuebtn.Visible = true;
-            monsterContinuebtn.BringToFront();
-            //before, loop was not functioning properly because of incorrect variable usage
-            //loop should function properly now
+            //loop is semi-functioning properly 
+            //it skips the nested if statement on the 3rd click :(
         }
 
         private void continueSwordbtn_Click(object sender, EventArgs e)
@@ -202,7 +202,7 @@ namespace WillowWoods
 
         private void monsterContinuebtn_Click(object sender, EventArgs e)
         {
-            /*this panel was supposed to have 2 door and the user could
+            /*this panel was supposed to have 2 doors and the user could
              choose which door they would like to enter, but we faced the problem
              with one of the panels refusing to show. So to compromise, we had
              to delete that option*/
