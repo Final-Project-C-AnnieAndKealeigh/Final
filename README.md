@@ -8,6 +8,9 @@ Please take you're time while playing this game. Read through the text before cl
 This program was built with Windows Forms in C#
 
 # ScreenShots
+<img src="Title page.png" height = "400" width ="400">
+<img src="gameplayy.png" height = "400" width ="400">
+
 
 # Authors
 Annie Chu,
@@ -17,4 +20,4 @@ Kaeleigh Wasson
 <img src="Willow Woods Flowchart.png" height = "400" width ="400">
 
 # Video 
-<a href="https://youtu.be/g5ubkQ5COss">Willow Woods Game</a>
+<a href="https://youtu.be/sfmZktkvVUY">Willow Woods Game</a>
