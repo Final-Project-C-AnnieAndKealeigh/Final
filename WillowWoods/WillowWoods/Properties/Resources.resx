@@ -118,28 +118,61 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="52a3eedc730086a6c44f8f6e2c6d6ff7--dark-forest-forests" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\52a3eedc730086a6c44f8f6e2c6d6ff7--dark-forest-forests.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="284011701049211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\284011701049211.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="d629niv-9aeef292-3db0-40b7-a49f-21ef4370006a1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d629niv-9aeef292-3db0-40b7-a49f-21ef4370006a1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="db9f5454d9253c360e83a01180a9762e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\db9f5454d9253c360e83a01180a9762e.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (4).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="maxresdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maxresdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="a3ae7d6597ebf70fe9d67fa9f0994480" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a3ae7d6597ebf70fe9d67fa9f0994480.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lucy-linse-forest-3333" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lucy-linse-forest-3333.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="depositphotos_207816054-stock-video-halloween-spooky-moon-night-landscape" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\depositphotos_207816054-stock-video-halloween-spooky-moon-night-landscape.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="52a3eedc730086a6c44f8f6e2c6d6ff7--dark-forest-forests" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\52a3eedc730086a6c44f8f6e2c6d6ff7--dark-forest-forests.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maxresdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maxresdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Working-With-Hexels-for-Drawing-Tiled-Pixel-Art" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Working-With-Hexels-for-Drawing-Tiled-Pixel-Art.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giphy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giphy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Working-With-Hexels-for-Drawing-Tiled-Pixel-Art1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Working-With-Hexels-for-Drawing-Tiled-Pixel-Art1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (4).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="d629niv-9aeef292-3db0-40b7-a49f-21ef4370006a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\d629niv-9aeef292-3db0-40b7-a49f-21ef4370006a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="284011701049211" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\284011701049211.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="a3ae7d6597ebf70fe9d67fa9f0994480" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a3ae7d6597ebf70fe9d67fa9f0994480.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="37-374305_anime-sword-png-anime-sword-of-destiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\37-374305_anime-sword-png-anime-sword-of-destiny.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0fc84f0c3d4c39f1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0fc84f0c3d4c39f1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d4829c8b0612ce3fd346e36881771d12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d4829c8b0612ce3fd346e36881771d12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d629niv-9aeef292-3db0-40b7-a49f-21ef4370006a1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d629niv-9aeef292-3db0-40b7-a49f-21ef4370006a1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0fc84f0c3d4c39f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0fc84f0c3d4c39f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ffafd58f40dcfd2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ffafd58f40dcfd2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giphy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giphy1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

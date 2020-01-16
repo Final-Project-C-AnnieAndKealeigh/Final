@@ -63,9 +63,39 @@ namespace WillowWoods.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _0fc84f0c3d4c39f {
+            get {
+                object obj = ResourceManager.GetObject("0fc84f0c3d4c39f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _0fc84f0c3d4c39f1 {
+            get {
+                object obj = ResourceManager.GetObject("0fc84f0c3d4c39f1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _284011701049211 {
             get {
                 object obj = ResourceManager.GetObject("284011701049211", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _37_374305_anime_sword_png_anime_sword_of_destiny {
+            get {
+                object obj = ResourceManager.GetObject("37-374305_anime-sword-png-anime-sword-of-destiny", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,6 +123,16 @@ namespace WillowWoods.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap d4829c8b0612ce3fd346e36881771d12 {
+            get {
+                object obj = ResourceManager.GetObject("d4829c8b0612ce3fd346e36881771d12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap d629niv_9aeef292_3db0_40b7_a49f_21ef4370006a {
             get {
                 object obj = ResourceManager.GetObject("d629niv-9aeef292-3db0-40b7-a49f-21ef4370006a", resourceCulture);
@@ -106,6 +146,16 @@ namespace WillowWoods.Properties {
         internal static System.Drawing.Bitmap d629niv_9aeef292_3db0_40b7_a49f_21ef4370006a1 {
             get {
                 object obj = ResourceManager.GetObject("d629niv-9aeef292-3db0-40b7-a49f-21ef4370006a1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap db9f5454d9253c360e83a01180a9762e {
+            get {
+                object obj = ResourceManager.GetObject("db9f5454d9253c360e83a01180a9762e", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +183,69 @@ namespace WillowWoods.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ffafd58f40dcfd2 {
+            get {
+                object obj = ResourceManager.GetObject("ffafd58f40dcfd2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap giphy {
+            get {
+                object obj = ResourceManager.GetObject("giphy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap giphy1 {
+            get {
+                object obj = ResourceManager.GetObject("giphy1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lucy_linse_forest_3333 {
+            get {
+                object obj = ResourceManager.GetObject("lucy-linse-forest-3333", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap maxresdefault {
             get {
                 object obj = ResourceManager.GetObject("maxresdefault", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Working_With_Hexels_for_Drawing_Tiled_Pixel_Art {
+            get {
+                object obj = ResourceManager.GetObject("Working-With-Hexels-for-Drawing-Tiled-Pixel-Art", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Working_With_Hexels_for_Drawing_Tiled_Pixel_Art1 {
+            get {
+                object obj = ResourceManager.GetObject("Working-With-Hexels-for-Drawing-Tiled-Pixel-Art1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
