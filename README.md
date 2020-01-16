@@ -7,6 +7,8 @@ Please take you're time while playing this game. Read through the text before cl
 # Built With
 This program was built with Windows Forms in C#
 
+# ScreenShots
+
 # Authors
 Annie Chu,
 Kaeleigh Wasson
